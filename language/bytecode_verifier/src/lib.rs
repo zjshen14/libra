@@ -5,7 +5,7 @@
 
 #![feature(exhaustive_patterns)]
 #![feature(never_type)]
-#![feature(collections)]
+#![feature(iter_copied)]
 
 // Bounds checks are implemented in the `vm` crate.
 pub mod abstract_interpreter;
