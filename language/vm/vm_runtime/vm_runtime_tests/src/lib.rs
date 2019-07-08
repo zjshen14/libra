@@ -33,6 +33,7 @@ mod proptest_types;
 pub fn compile_and_execute(program: &str, args: Vec<TransactionArgument>) -> VMResult<()> {
     let address = AccountAddress::default();
     let compiler = Compiler {
+        skip_stdlib_deps: true,
         code: program,
         address,
         ..Compiler::default()
