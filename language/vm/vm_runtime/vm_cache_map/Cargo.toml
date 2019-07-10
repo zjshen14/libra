@@ -7,7 +7,7 @@ publish = false
 edition = "2018"
 
 [dependencies]
-chashmap = { git = "https://gitlab.redox-os.org/redox-os/chashmap.git"}
+chashmap = { git = "https://github.com/zjshen14/chashmap", branch = "zjshen" }
 typed-arena = "1.4.1"
 
 [dev-dependencies]
